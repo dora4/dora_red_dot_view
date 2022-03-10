@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DoraRedDotView">
+        <attr name="dora_redDotColor" format="color|reference"/>
+        <attr name="dora_redDotRadius" format="dimension|reference"/>
+        <attr name="dora_redDotGravity">
+            <enum name="leftUp" value="0"/>
+            <enum name="rightUp" value="1"/>
+            <enum name="rightBottom" value="2"/>
+            <enum name="leftBottom" value="3"/>
+        </attr>
+        <attr name="dora_redDotVerticesOffset" format="dimension|reference"/>
+        <attr name="dora_showRedDot" format="boolean"/>
+    </declare-styleable>
+</resources>
